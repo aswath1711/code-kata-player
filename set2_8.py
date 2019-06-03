@@ -1,3 +1,4 @@
+d=int(input())
 n=input().split()
 c="kabali"
 #print(n)
