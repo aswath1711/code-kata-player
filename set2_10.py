@@ -1,6 +1,14 @@
 n=input()
 lis=list(n)
 for i in range(len(lis)):
-    lis[i]=chr(ord(lis[i])+3)
+    asc=ord(lis[i])
+    if(asc==88):
+        lis[i]="A"
+    elif(asc==89):
+        lis[i]="B"
+    elif(asc==90):
+        lis[i]="C"
+    else:  
+        lis[i]=chr(asc+3)
 print("".join(lis))
     
