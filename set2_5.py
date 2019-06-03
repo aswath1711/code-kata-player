@@ -1,5 +1,9 @@
-word=input()
-list1=list(word)
-dict = {iter:list1.count(iter) for iter in list1}
-large = max(dict, key=dict.get)  
-print(large)
+s=input()
+n=list(s)
+max_count=0
+val=""
+for i in range(len(n)):
+    if n.count(n[i])>max_count:    
+        max_count= n.count(n[i])
+        val=n[i]
+print(val)
