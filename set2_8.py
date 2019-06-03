@@ -1,5 +1,8 @@
 d=int(input())
-n=input().split()
+n=[]
+for i in range(d):
+    str=input()
+    n.append(str)
 c="kabali"
 #print(n)
 count=0
