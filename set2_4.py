@@ -1,3 +1,4 @@
+n=int(input())
 s=input()
 stri=list(s)
 for ch in stri:
