@@ -1,7 +1,7 @@
 n,k=[int(x) for x in input().split()]
-a=list(map(int,input().split()))
-ad=list(map(int,input().split()))
-for i in ad:
-    a.append(i)
-    a.sort()
-    print(a[-1],end=" ")
+l1=list(map(int,input().split()))
+l2=list(map(int,input().split()))
+for i in l2:
+    l1.append(i)
+    l1.sort()
+    print(l1[-1],end=" ")
