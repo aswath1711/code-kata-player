@@ -5,15 +5,15 @@ Created on Fri Jul 19 20:40:56 2019
 @author: New
 """
 
-a=input()
-o=[]
-c=[]
-for i in range(0,len(a)):
-  if(a[i]=='('):
-    o.append(a[i])
-  elif(a[i]==')'):
-    c.append(a[i])
-if(len(l)==len(s)):
-  print("yes")
+s=input()
+c1=0
+c2=0
+for i in s:
+    if i=='(':
+        c1=c1+1
+    else:
+        c2=c2+1
+if c1==c2:
+    print('yes')
 else:
-  print("no")
+    print('no')
