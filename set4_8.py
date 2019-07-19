@@ -10,4 +10,6 @@ l=[]
 for i in range(1,n):
     if n%i==0:
         l.append(i)
-print(*l)
+for j in l:
+    if(j%2==0):
+        print(j,end=" ")
