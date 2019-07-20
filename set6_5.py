@@ -7,6 +7,8 @@ Created on Sat Jul 20 00:02:26 2019
 
 
 a,b=input().split()
+a.lower()
+b.lower()
 if(a==b):
   print("yes")
 else:
